@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  MeetingView.swift
 //  Meeting Schedule
 //
 //  Created by apple on 29/10/2023.
