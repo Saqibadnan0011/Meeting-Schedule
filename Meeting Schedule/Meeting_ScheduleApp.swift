@@ -11,7 +11,7 @@ import SwiftUI
 struct Meeting_ScheduleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
