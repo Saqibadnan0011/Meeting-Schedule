@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		184E226D2AEECCE9009886FD /* Meeting_ScheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E226C2AEECCE9009886FD /* Meeting_ScheduleApp.swift */; };
-		184E226F2AEECCE9009886FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E226E2AEECCE9009886FD /* ContentView.swift */; };
+		184E226F2AEECCE9009886FD /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E226E2AEECCE9009886FD /* MeetingView.swift */; };
 		184E22712AEECCEC009886FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184E22702AEECCEC009886FD /* Assets.xcassets */; };
 		184E22742AEECCEC009886FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184E22732AEECCEC009886FD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		184E22692AEECCE9009886FD /* Meeting Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meeting Schedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184E226C2AEECCE9009886FD /* Meeting_ScheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting_ScheduleApp.swift; sourceTree = "<group>"; };
-		184E226E2AEECCE9009886FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		184E226E2AEECCE9009886FD /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		184E22702AEECCEC009886FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184E22732AEECCEC009886FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				184E226C2AEECCE9009886FD /* Meeting_ScheduleApp.swift */,
-				184E226E2AEECCE9009886FD /* ContentView.swift */,
+				184E226E2AEECCE9009886FD /* MeetingView.swift */,
 				184E22702AEECCEC009886FD /* Assets.xcassets */,
 				184E22722AEECCEC009886FD /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184E226F2AEECCE9009886FD /* ContentView.swift in Sources */,
+				184E226F2AEECCE9009886FD /* MeetingView.swift in Sources */,
 				184E226D2AEECCE9009886FD /* Meeting_ScheduleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
