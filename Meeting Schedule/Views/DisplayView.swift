@@ -20,7 +20,13 @@ struct DisplayView: View {
                 .listRowBackground(scrum.theme.mainColor)
             }
             .navigationTitle("Daily Meeting")
-            
+            .toolbar {
+                Button(action: {}) {
+                    Image(systemName: "plus")
+                        .foregroundColor(.black)
+                }
+                .accessibilityLabel("New meeting")
+            }
         }
     }
 }
