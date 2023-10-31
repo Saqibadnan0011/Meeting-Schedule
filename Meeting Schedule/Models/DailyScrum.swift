@@ -5,21 +5,28 @@
 //  Created by apple on 29/10/2023.
 //
 
-import Foundation
+import SwiftUI
 
 struct DailyScrum: Identifiable {
     var id: UUID
     var title: String
-    var attendees: [String]
+    var attendees: [Attendee]
     var lengthInMinutes: Int
     var theme: Theme
     
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
         self.id = id
         self.title = title
-        self.attendees = attendees
+        self.attendees = attendees.map { Attendee (id: UUID(), name: $0) }
         self.lengthInMinutes = lengthInMinutes
         self.theme = theme
+    }
+}
+
+extension DailyScrum {
+    struct Attendee: Identifiable {
+        let id: UUID
+        var name: String
     }
 }
 
