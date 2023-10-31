@@ -17,6 +17,7 @@
 		184E22832AEEE840009886FD /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E22822AEEE83F009886FD /* TrailingIconLabelStyle.swift */; };
 		184E22862AEEEC33009886FD /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E22852AEEEC33009886FD /* DisplayView.swift */; };
 		18FC05192AF167950001B47C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC05182AF167950001B47C /* DetailView.swift */; };
+		18FC051B2AF178190001B47C /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC051A2AF178190001B47C /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		184E22822AEEE83F009886FD /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		184E22852AEEEC33009886FD /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		18FC05182AF167950001B47C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		18FC051A2AF178190001B47C /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				184E22852AEEEC33009886FD /* DisplayView.swift */,
 				18FC05182AF167950001B47C /* DetailView.swift */,
+				18FC051A2AF178190001B47C /* DetailEditView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			files = (
 				184E227F2AEEDAB6009886FD /* DailyScrum.swift in Sources */,
 				18FC05192AF167950001B47C /* DetailView.swift in Sources */,
+				18FC051B2AF178190001B47C /* DetailEditView.swift in Sources */,
 				184E22862AEEEC33009886FD /* DisplayView.swift in Sources */,
 				184E22832AEEE840009886FD /* TrailingIconLabelStyle.swift in Sources */,
 				184E227C2AEED6F9009886FD /* Theme.swift in Sources */,
